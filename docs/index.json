@@ -1,0 +1,36 @@
+[
+{
+	"uri": "http://localhost:1313/basics/",
+	"title": "Basics",
+	"tags": [],
+	"description": "",
+	"content": "Chapter 1 Basics Discover what Aurora is all about and the core-concepts behind it.\n"
+},
+{
+	"uri": "http://localhost:1313/basics/requirements/",
+	"title": "Requirements",
+	"tags": [],
+	"description": "",
+	"content": "The following will give an overview of Auroras technical requirements for local setup.\nnpm new site \u0026lt;new_project\u0026gt;\r"
+},
+{
+	"uri": "http://localhost:1313/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": "Content "
+},
+{
+	"uri": "http://localhost:1313/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "http://localhost:1313/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
