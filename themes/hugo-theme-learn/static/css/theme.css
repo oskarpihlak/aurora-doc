@@ -102,10 +102,10 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     box-shadow: inset 0 1px 3px rgba(0,0,0,.06),0 0 5px rgba(0,169,218,.7)
 }
 #header-wrapper {
-    background: #51a185;
+    background: #8451a1;
     color: #fff;
     text-align: center;
-    border-bottom: 4px solid #6fb697;
+    border-bottom: 4px solid #9c6fb6;
     padding: 1rem;
 }
 #header a {
@@ -121,8 +121,8 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 .searchbox {
     margin-top: 1rem;
     position: relative;
-    border: 1px solid #5eae89;
-    background: #489077;
+    border: 1px solid #915eae;
+    background: #764890;
     border-radius: 4px;
 }
 .searchbox label {
@@ -173,7 +173,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     }
 }
 #sidebar {
-    background-color: #2a3038;
+    background-color: #322A38;
     position: fixed;
     top: 0;
     width: 300px;
@@ -276,7 +276,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     margin-top: 9px;
 }
 #sidebar ul.topics > li.parent, #sidebar ul.topics > li.active {
-    background: #1f2629;
+    background: #251f29;
     margin-left: -1rem;
     margin-right: -1rem;
     padding-left: 1rem;
@@ -310,7 +310,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     padding: 4px 0;
 }
 #sidebar ul li.visited > a .read-icon {
-    color: #6fb68f;
+    color: #9c6fb6;
     display: inline;
 }
 #sidebar ul li li {
@@ -668,14 +668,14 @@ hr {
     padding: 25px;
     float: left;
     clear: both;
-    background: #6fb691;
+    background: #9c6fb6;
     color: #fff;
 }
 #body a.anchor-link {
     color: #ccc;
 }
 #body a.anchor-link:hover {
-    color: #6fb69d;
+    color: #9c6fb6;
 }
 #body-inner .tabs-wrapper.ui-theme-badges {
     background: #1d1f21;
@@ -712,7 +712,7 @@ td {
     border: 1px solid #eaeaea;
 }
 .button {
-    background: #6fb69d;
+    background: #9c6fb6;
     color: #fff;
     box-shadow: 0 3px 0 #00a5d4;
 }
@@ -773,7 +773,7 @@ td {
 }
 .bullet-icon {
     float: left;
-    background: #6fb69d;
+    background: #9c6fb6;
     padding: 0.875rem;
     width: 3.5rem;
     height: 3.5rem;
@@ -783,7 +783,7 @@ td {
     text-align: center;
 }
 .bullet-icon-1 {
-    background: #6fb69d;
+    background: #9c6fb6;
 }
 .bullet-icon-2 {
     background: #00f3d8;
@@ -1128,10 +1128,10 @@ pre .copy-to-clipboard:hover {
 }
 
 #homelinks {
-  background-color: #6fb69d;
+  background-color: #9c6fb6;
   color: #fff;
   padding: 7px 0;
-  border-bottom: 4px solid #6fb69d;
+  border-bottom: 4px solid #9c6fb6;
 }
 
 #searchResults {
