@@ -9,4 +9,5 @@ chapter: true
 
 # Basics
 
-Discover!!!! what Aurora is all about and the core-concepts behind it.
+Discover what Aurora is all about and the core-concepts behind it.
+Originally ...
