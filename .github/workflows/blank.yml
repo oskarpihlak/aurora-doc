@@ -1,43 +1,53 @@
-# This is a basic workflow to help you get started with Actions
+# Workflow to build and deploy site to Github Pages using Hugo
 
-name: CI
+# Name of Workflow
+name: github pages
 
-# Controls when the action will run. 
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
+  # This workflow contains a single job called "deploy"
+  deploy:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+    # Step 1 - Checks-out your repository under $GITHUB_WORKSPACE
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+          submodules: true  # Fetch Hugo themes
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-      # Runs a set of commands using the runners shell
-      - name: Action Hugo
-      # You may pin to the exact commit or the version.
-      # uses: kevvurs/action-hugo@23ea7d07ea54e66257252f150e06622c47bc24ed
-        uses: kevvurs/action-hugo@v1.0-rc2
-      - name: GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@3.7.1
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: docs # The folder the action should deploy.
-          CLEAN: true # Automatically remove deleted files from the deploy branch
+    # Step 2 - Sets up the latest version of Hugo
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+          hugo-version: 'latest'
+
+    # Step 3 - Clean and don't fail
+    - name: Clean public directory
+      run: rm -rf public
+
+    # Step 4 - Builds the site using the latest version of Hugo
+    # Also specifies the theme we want to use
+    - name: Build
+      run: hugo --theme=hugo-theme-learn
+
+    # Step 5 - Create name file
+    - name: Create cname file
+      run: echo 'freshswift.net' > public/CNAME
+
+    # Step 6 - Push our generated site to our gh-pages branch
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
