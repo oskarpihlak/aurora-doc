@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02b7f17b-6bf1-4136-8752-37ff094e098c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="JupyterTrust" id="bd58d12a-08c8-4141-b4cc-a85a97b14536" />
+  <component name="ProjectId" id="1lWxXKZXQ1w6Vsw3bIQyycEqXPh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/layouts/partials" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\workspace\TALTECH\LOPUTOO\aurora-doc2\layouts\partials" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\workspace\TALTECH\LOPUTOO\aurora-doc2\themes\hugo-theme-learn" />
+      <recent name="C:\work\workspace\TALTECH\LOPUTOO\aurora-doc2\themes" />
+      <recent name="C:\work\workspace\TALTECH\LOPUTOO\aurora-doc2" />
+      <recent name="C:\work\workspace\TALTECH\LOPUTOO\aurora-doc2\docs" />
+      <recent name="C:\work\workspace\TALTECH\LOPUTOO\aurora-doc2\docs\themes\hugo-theme-learn" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02b7f17b-6bf1-4136-8752-37ff094e098c" name="Default Changelist" comment="" />
+      <created>1607726687145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607726687145</updated>
+      <workItem from="1607726689013" duration="6138000" />
+    </task>
+    <task id="LOCAL−00001" summary="Reformat directory structure &amp; base url">
+      <created>1607727259390</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1607727259390</updated>
+    </task>
+    <task id="LOCAL−00002" summary="Include the /docs">
+      <created>1607727348211</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1607727348211</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Update /docs">
+      <created>1607727647932</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1607727647932</updated>
+    </task>
+    <task id="LOCAL−00004" summary="Fix style mismatch in fonts">
+      <created>1607730707841</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1607730707841</updated>
+    </task>
+    <task id="LOCAL−00005" summary="Add custom footer">
+      <created>1607730969423</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1607730969423</updated>
+    </task>
+    <task id="LOCAL−00006" summary="Test pipeline">
+      <created>1607731531263</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1607731531263</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Reformat directory structure &amp; base url" />
+    <MESSAGE value="Include the /docs" />
+    <MESSAGE value="Update /docs" />
+    <MESSAGE value="Fix style mismatch in fonts" />
+    <MESSAGE value="Add custom footer" />
+    <MESSAGE value="Test pipeline" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test pipeline" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2153" y="2" key="CommitChangelistDialog2" timestamp="1607731530423">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="233" y="2" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607727646961" />
+    <state x="2153" y="2" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607731530423" />
+    <state x="1920" y="85" key="DiffContextDialog" timestamp="1607730958605">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1920" y="85" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607730958605" />
+    <state x="-1181" y="262" key="FileChooserDialogImpl" timestamp="1607726841829">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1181" y="262" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607726841829" />
+    <state x="2472" y="249" key="Vcs.Push.Dialog.v2" timestamp="1607731532840">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607727649671" />
+    <state x="2472" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607731532840" />
+    <state x="2698" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607731234657">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2698" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607731234657" />
+    <state x="1994" y="237" width="1684" height="566" key="find.popup" timestamp="1607730840426">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="74" y="237" width="1684" height="566" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607729052206" />
+    <state x="1994" y="237" width="1684" height="566" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607730840426" />
+    <state x="2262" y="84" key="new project wizard" timestamp="1607730070947">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2262" y="84" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1607730070947" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607728461646">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607728461646" />
+  </component>
+</project>
